@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #f8a8bc;
+}
+
+/*MENU*/
+.menu ul{
+    background-color:#b580c4;
+    height: 70px;
+    list-style: none;
+    justify-content:center;/*alinhamento horizontal*/
+    align-items: center;/*alinhamento vertical*/
+    display:flex;/*colocou a lista na horizontal*/
+}
+
+.menu ul li{
+    padding: 15px 20px;/*borda de cada item da lista (altura x largura)*/
+    font-size: 20px;
+}
+
+.menu ul a{
+    color:#ffff;
+    transition: 0.3s;/*faz a "animação"*/
+}
+
+.menu ul a:hover{
+    background: #f8a8bc;
+    padding: 23px;
+    vertical-align: middle;
+}
+
+.menu img {
+    width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+    vertical-align: middle;
+
+}
+
+/*BANNER*/
+.banner{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*REDES SOCIAIS*/
+.redes{
+    background-color: #b580c4;
+    display:block;
+    position: static;
+    height: 160px;
+    width: 100%;
+
+}
+.redes ul{
+    margin: 10px 220px;
+    list-style: none;
+    display: flex;
+    justify-content:center;/*alinhamento horizontal*/
+    align-items: center;/*alinhamento vertical*/
+    vertical-align:middle;
+
+}
+.redes ul a:hover{
+    background: #f8a8bc;
+    padding: 65px 0px;
+    vertical-align: middle;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.redes li img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    padding: 30px 60px;
+}
+
+/*DESTAQUES*/
+.destaques h1{
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+}
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;/*quebra de linha*/
+    justify-content: center;
+    padding: 20px 50px;
+}
+.produto{
+    padding: 30px;
+    background-color: #b580c4;
+    margin: 20px;
+    border-radius: 40px;
+    width: 280px; 
+    text-align: center;
+}
+.produto a{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+
+}
+.produto img{
+    width: 280px;
+    border-radius: 32px;
+}
+
+/*TITULOS*/
+.titulo{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+}
+
+
