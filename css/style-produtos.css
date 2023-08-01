@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+}
+.conteiner{
+    display: flex;
+    margin: 30px;
+}
+
+.lado-esquerdo{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.imagens img{
+    border-radius: 10%;
+}
+.foto-grande{
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-color: #570080;
+    border-width: 3px;
+}
+.fotos-pequenas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.fotos-pequenas img{
+    width: 90px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #570080;
+    border-width: 3px;
+}
+
+.lado-direito{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+.lado-direito .quadro{
+    background-color: #b580c4;
+    border-radius: 10%;
+    width: 450px;
+    height: 500px;
+    border-style: solid;
+    border-color: #570080;
+    border-width: 3px;
+}
+
+.lado-direito h2{
+    color: #570080;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lado-direito h1{
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+#valor{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    gap: 20px;/*Espaço entre os "filhos" desse id*/
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.preco{
+    color: #570080;
+    font-size: 30px;
+    font-weight: 700;/*negrito*/ 
+}
+
+.parcelas{
+    color: #fff;
+}
+.opcao-quantidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.opcao-quantidade p{
+    font-size: 20px;
+    margin: 0px;
+    color: #fff;
+}
+
+.quantidade{
+    display: flex;
+    gap: 30px;
+    background-color: #f8a8bc;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 140px;
+    border-radius: 24px;
+}
+.quantidade img{
+    margin-top: 5px;
+    width: 25px;
+
+}
+.quantidade span{
+    font-size: 20px;
+}
+
+.menos, .mais{
+    cursor: pointer;
+}
+.botao{
+    display: flex;
+    align-items: center;
+}
+.botao-comprar{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.quadro .botao-comprar a{
+    background-color: #f8a8bc;
+    padding: 10px 20px;
+    border-radius: 40px;
+    display: flex;
+    color: #570080;
+    font-weight: 700;
+    align-items: center;
+}

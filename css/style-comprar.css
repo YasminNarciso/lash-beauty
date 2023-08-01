@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif; 
+}
+body{
+    background-color: #fff;
+    overflow-x: hidden;
+     
+}
+header{
+    background-color: #b580c4;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+}
+header img{
+    height: 150px;
+    width: 150px;
+    margin-left: 70px;
+}
+.colunas{
+    margin: 20px 70px 50px;
+    display: flex;
+    flex-direction: row;
+}
+.primeira-coluna{
+    width: 65%;
+}
+h2{
+    font-size: 30px;
+}
+
+.form{
+    border-radius: 10px;
+    border-color: #b580c4;
+    border-style:groove;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    height: 40px;
+}
+
+::-webkit-input-placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.espaço-dividido{
+    display: flex;
+    flex-direction: row;
+}
+#item1{
+    width: 200px;
+}
+#item2{
+    width: 477px;
+}
+
+.primeira-coluna .botão-continuar{
+    display: flex;
+    justify-content: flex-end;
+}
+.botão-continuar button{
+    background-color: #b580c4;
+    border-radius: 50px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.segunda-coluna{
+    width: 35%;
+}
+
+.bloco-de-produtos{
+    background-color: #b580c4;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    position: sticky;
+    top: 20px;
+}

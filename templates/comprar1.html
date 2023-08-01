@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra - entrega</title>
+    <link rel="stylesheet" href="/css/style-comprar.css">
+    <link rel="shortcut icon" href="/imagens/icone-borboleta.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="/templates/1home.html"><img src="/imagens/logo-fundoroxo.png" alt="logo-fundoroxo"></a>
+    </header>
+    <div class="colunas">
+        <!--PRIMEIRA COLUNA-->
+        <div class="primeira-coluna">
+
+            <div class="dados-de-contato">
+                <h2>Dados de Contato</h2><!--EMAIL-->
+                <input class=form type="email" name="email" size="85" placeholder="E-mail:">
+            </div>
+
+            <div class="entrega">
+                <h2>Entrega</h2><!--CEP, MOSTRA VALOR DO FRETE-->
+                <input class=form type="text" name="cep" size="85" placeholder="CEP:">
+            </div>
+
+            <div class="dados-do-destinatario">
+                <h2>Dados do Destinatário</h2><!--NOME, SOBRENOME E TELEFONE-->
+                <input class=form type="text" name="nome" size="85" placeholder="Nome:">
+                <input class=form type="text" name="sobrenome" size="85" placeholder="Sobrenome:">
+                <input class=form type="tel" name="telefone" size="85" placeholder="Telefone:">
+            </div>
+
+            <div class="endereco-do-destinatario">
+                <h2>Endereço do Destinatário</h2><!--COMPLETA AUTOMATICAMENTE COM O CEP, COMPLETAR APENAS O NUMERO E COMPLEMENTO-->
+                <input class="form" type="text" name="endereço" size="85" placeholder="Endereço:">
+                <div class="espaço-dividido">
+                    <input id="item1" class="form" type="text" name="numero" size="85" placeholder="Número:">
+                    <input id="item2" class="form" type="text" name="complemento" size="85" placeholder="Complemento:">
+                </div>
+                <input class="form" type="text" name="bairro" size="85" placeholder="Bairro:">
+                <input class="form" type="text" name="cidade" size="85" placeholder="Cidade:">
+                <div class="espaço-dividido">
+                    <input id="item1" class="form" type="number" name="cep" size="85" placeholder="CEP:">
+                    <input id="item2" class="form" type="text" name="estado" size="85" placeholder="Estado:">
+                </div>
+            </div>
+
+            <div class="dados-de-cobranca">
+                <h2>Dados de Cobrança</h2><!--CPF OU CNPJ-->
+                <input class="form" type="text" name="cpf" size="85" placeholder="CPF ou CNPJ:">
+            </div>
+
+            <div class="botão-continuar">
+                <button>CONTINUAR</button>
+            </div>
+        </div>
+        <!--SEGUNDA COLUNA-->
+        <div class="segunda-coluna">
+            <div class="bloco-de-produtos">
+                <p class="nome-do-produto">Nome do produto</p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ipsum id tenetur ea perferendis quo quaerat facilis esse architecto neque iste cumque quia debitis ut autem, porro consequuntur deleniti expedita.
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
