@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lash Beauty</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/style-produtos.css">
-    <link rel="shortcut icon" href="/imagens/icone-borboleta.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/style-produtos.css">
+    <link rel="shortcut icon" href="/static/imagens/icone-borboleta.png" type="image/x-icon">
 </head>
 <body>
     <!--MENU-->
     <header>
         <div class="menu">
             <div class="home">
-                <a href="/templates/1home.html"><img src="/imagens/nome-lash-beauty-png.png"></a>
+                <a href="/templates/index.html"><img src="/static/imagens/nome-lash-beauty-png.png"></a>
             </div>
             <div class="links">
                 <ol>
@@ -24,7 +23,7 @@
                 </ol>
             </div>
             <div class="icone-carrinho">
-                <a href="/templates/carrinho.html"><img src="/imagens/cart_pink.png"></a>
+                <a href="/templates/carrinho.html"><img src="/static/imagens/cart_pink.png"></a>
             </div>
         </div>
     </header>
@@ -32,31 +31,34 @@
     <div class="conteiner">
         <div class="lado-esquerdo">
             <div class="imagens">
-                <img class="foto-grande" src="/imagens/Cílios-1.0.jpg">
+                <img class="foto-grande" src="/static/imagens/Cílios-1.0.jpg">
                 <div class="fotos-pequenas">
-                        <img src="/imagens/Cílios-1.1.jpg" alt="">
-                        <img src="/imagens/Cílios-1.2.jpg" alt="">
-                        <img src="/imagens/Cílios-1.3.jpg" alt="">
-                        <img src="/imagens/Cílios-1.4.jpg" alt="">
+                        <img src="/static/imagens/Cílios-1.1.jpg" alt="">
+                        <img src="/static/imagens/Cílios-1.2.jpg" alt="">
+                        <img src="/static/imagens/Cílios-1.3.jpg" alt="">
+                        <img src="/static/imagens/Cílios-1.4.jpg" alt="">
                 </div>
             </div>
-
+            <div class="descricao">
+                <h1>Descrição</h1>
+                <p>{{descricao}}</p>
+            </div>
         </div> 
 
         <div class="lado-direito">
             <div class="quadro">
-                <h2>Cílios</h2>
-                <h1>Cílios Y Decemars Mix Volume Brasileiro</h1>
+                <h2>{{ categoria }}</h2>
+                <h1>{{ nome_produto}}</h1>
                 <div id="valor">
-                    <p class="preco">R$34,63</p>
-                    <p class="parcelas">3x de R$11,54 sem juros</p>
+                    <p class="preco">R${{ preco }}</p>
+                    <p class="parcelas">{{ parcelas}}</p>
                 </div>
                 <div class="opcao-quantidade">
                     <p>Quantidade:</p>
                     <div class="quantidade">
-                        <div class="menos"><img src="/imagens/menos.png" alt="menos"></div>
+                        <div class="menos"><img src="/static/imagens/menos.png" alt="menos"></div>
                         <span>0</span>
-                        <div class="mais"><img src="/imagens/mais.png" alt="mais"></div>
+                        <div class="mais"><img src="/static/imagens/mais.png" alt="mais"></div>
                     </div>
                 </div>
                 <div class="botao">
@@ -66,6 +68,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 </body>
 </html>

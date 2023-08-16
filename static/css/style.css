@@ -15,7 +15,7 @@ body{
 /*MENU*/
 header{
     background-color: #b580c4;
-    width: 100vw;
+    width: 100%;
     height: 90px;
 }
 .menu{
@@ -32,7 +32,7 @@ header{
 .links ol {
     display: flex;
     font-size: 22px;
-    padding-right: 180px;
+
 }
 .links ol a{
     color: #fff;
@@ -48,6 +48,7 @@ header{
     display: flex;
     width: 40px;
 }
+
 /*BANNER*/
 .banner{
     margin-top: 20px;
@@ -92,6 +93,15 @@ header{
     padding: 30px 60px;
 }
 
+/*TITULOS*/
+.titulo{
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    color: #f8a8bc;
+}
+
 /*DESTAQUES*/
 .destaques h1{
     font-size: 60px;
@@ -104,7 +114,7 @@ header{
     display: flex;
     flex-wrap: wrap;/*quebra de linha*/
     justify-content: center;
-    padding: 20px 50px;
+
 }
 .produto{
     padding: 30px;
@@ -130,13 +140,46 @@ header{
     border-radius: 32px;
 }
 
-/*TITULOS*/
-.titulo{
-    font-size: 60px;
+/*RODAPÉ*/
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #b580c4;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer section{
+    width: 215px;
     margin-top: 20px;
+}
+.footer-contato, .footer-redes, .footer-horario-atendimento{
     text-align: center;
+}
+.footer-contato{
+    display: flex;
+    flex-direction: column;
+}
+.footer-contato-links{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.item-contato a{
+    font-size: 15px;
+    color: #000;
+    align-items: center;   
+}
+.item-contato img{
+    width: 20px;
+}
+footer section h3{
     font-family: 'DM Serif Display', serif;
-    color: #f8a8bc;
+    font-size: 20px;
+}
+footer section img{
+    width: 25px;
 }
 
-
+.footer-redes-links{
+    margin-top: 10px;
+}

@@ -9,7 +9,6 @@
 body{
     background-color: #fff;
     overflow-x: hidden;
-     
 }
 header{
     background-color: #b580c4;
@@ -57,7 +56,7 @@ h2{
     width: 200px;
 }
 #item2{
-    width: 477px;
+    width: 441px;
 }
 
 .primeira-coluna .botão-continuar{
@@ -86,4 +85,16 @@ h2{
     color: #fff;
     position: sticky;
     top: 20px;
+}
+
+/*SEGUNDA PÁGINA DE COMPRA*/
+
+.confirmar-dados{
+    border-radius: 10px;
+    border-color: #b580c4;
+    border-style:groove;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    height: 40px;
 }
