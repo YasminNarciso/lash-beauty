@@ -13,8 +13,10 @@
 .lado-esquerdo{
     display: flex;
     width: 100%;
-    justify-content: flex-end;
     flex-direction: column;
+}
+.lado-esquerdo-content{
+    align-self: flex-end;
 }
 .imagens img{
     border-radius: 25px;
@@ -25,7 +27,6 @@
     border-style: solid;
     border-color: #570080;
     border-width: 3px;
-    justify-content: flex-end;
 }
 .fotos-pequenas {
     display: flex;

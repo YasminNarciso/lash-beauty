@@ -1,4 +1,4 @@
-from flask import Flask,render_template, request, render_template_string, redirect, url_for, has_app_context
+from flask import Flask, render_template, request, render_template_string, redirect, url_for, has_app_context
 
 #Objeto/servidor do flask
 app = Flask(__name__)

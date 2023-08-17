@@ -32,6 +32,7 @@ header{
 .links ol {
     display: flex;
     font-size: 22px;
+    margin: 0px 50px;
 
 }
 .links ol a{
@@ -44,10 +45,7 @@ header{
     padding: 10px 23px;
     border-radius: 40px;
 }
-.icone-carrinho a img{
-    display: flex;
-    width: 40px;
-}
+
 
 /*BANNER*/
 .banner{
